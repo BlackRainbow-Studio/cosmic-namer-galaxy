@@ -14,7 +14,7 @@ export const CelestialCard = ({ data, isSelected, onSelect }: CelestialCardProps
       onClick={onSelect}
       className={cn(
         "relative overflow-hidden cursor-pointer transition-all duration-300 hover:scale-105",
-        "border-2 bg-card/50 backdrop-blur-sm animate-float",
+        "border-2 bg-card/50 backdrop-blur-sm",
         isSelected ? "border-primary shadow-lg" : "border-border hover:border-primary/50",
         isSelected && "animate-pulse-glow"
       )}
